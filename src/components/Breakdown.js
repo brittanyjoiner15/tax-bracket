@@ -53,14 +53,16 @@ function Breakdown(props) {
       field: "rate",
       name: "Rate",
       render: (rate) => percentage(rate),
+      width: "100px",
     },
     {
       field: "range",
       name: "Range",
+      width: "200px",
     },
     {
       field: "yourAmountInBracket",
-      name: "What Youre Paying In This Bracket",
+      name: "How Much Income You Have In This Bracket",
       render: (yourAmountInBracket, item) => {
         const value = currencyFormatter.format(yourAmountInBracket);
         return item.remainder ? (
@@ -83,12 +85,12 @@ function Breakdown(props) {
     },
     {
       field: "yourTaxOnThis",
-      name: "How much tax your paying ",
+      name: "How Much Tax You're Paying On That Income",
       render: (yourTaxOnThis) => currencyFormatter.format(yourTaxOnThis),
     },
     {
       field: "percentOfYourIncomeInThisBracket",
-      name: "How much of your total income falls in this bracket ",
+      name: "How Much Of Your Total AGI Falls In This Bracket ",
     },
   ];
 
