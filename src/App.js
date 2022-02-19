@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import "./App.css";
 import BracketRates from "./components/BracketRates";
 import Breakdown from "./components/Breakdown";
+import Header from "./components/Header";
 import Input from "./components/Input";
 import { taxBrackets } from "./components/Utilities";
 
@@ -15,7 +16,7 @@ function App() {
   return (
     <EuiProvider colorMode="light">
       <div className="App">
-        {/* <Header /> */}
+        <Header />
         <Input
           agi={agi}
           setAgi={setAgi}

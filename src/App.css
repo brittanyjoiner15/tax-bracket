@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.adjustWidth {
+  width: 50%;
+}
+
+.center {
+  background-color: red!;
+}
