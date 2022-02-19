@@ -6,11 +6,13 @@ import {
   EuiFormRow,
   EuiPanel,
   EuiSelect,
+  EuiSpacer,
 } from "@elastic/eui";
 import React from "react";
 import { taxBrackets } from "./Utilities";
 
 function Input(props) {
+  // removes commas if anyone puts them in the input
   function removeCommas(string) {
     return parseInt(string.replace(/\,/g, ""), 10);
   }
@@ -25,7 +27,6 @@ function Input(props) {
                 <EuiFieldText
                   name="agi"
                   onChange={(e) => props.setAgi(removeCommas(e.target.value))}
-                  // value={props.agi}
                   prepend="$"
                 />
               </EuiFormRow>
@@ -49,6 +50,7 @@ function Input(props) {
           </EuiFlexGroup>
         </EuiForm>
       </EuiPanel>
+      <EuiSpacer />
     </div>
   );
 }

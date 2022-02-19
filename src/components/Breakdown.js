@@ -74,6 +74,7 @@ function Breakdown(props) {
             >
               <>
                 {value}
+                {"   "}
                 <EuiIcon type="stats" title="test" />
               </>
             </EuiToolTip>

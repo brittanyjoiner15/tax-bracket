@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import "./App.css";
 import BracketRates from "./components/BracketRates";
 import Breakdown from "./components/Breakdown";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Input from "./components/Input";
 import { taxBrackets } from "./components/Utilities";
@@ -27,7 +28,8 @@ function App() {
         <BracketRates filingStatus={filingStatus} />
         {/* <BillionaireBreakdown /> // Might event build a component that lets 
         you select a billionaire, then updates with their AGI so you can see
-        how much taxes they _should_ be paying? */}
+        how much taxes they _should_ be paying and how they'll be just fine 😂? */}
+        <Footer />
       </div>
     </EuiProvider>
   );
