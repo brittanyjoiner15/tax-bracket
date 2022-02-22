@@ -27,27 +27,27 @@ export const taxBrackets = [
       {
         rate: 12,
         range: "$9,951 - $40,525",
-        amountInRange: 30574,
+        amountInRange: 30575,
       },
       {
         rate: 22,
         range: "$40,526 - $86,375",
-        amountInRange: 45849,
+        amountInRange: 45850,
       },
       {
         rate: 24,
         range: "$86,376 - $164,925",
-        amountInRange: 78549,
+        amountInRange: 78550,
       },
       {
         rate: 32,
         range: "$164,926 - $209,425",
-        amountInRange: 44499,
+        amountInRange: 44500,
       },
       {
         rate: 35,
         range: "$209,426 - $523,600",
-        amountInRange: 314174,
+        amountInRange: 314175,
       },
       {
         rate: 37,
@@ -68,27 +68,27 @@ export const taxBrackets = [
       {
         rate: 12,
         range: "$19,901 - $81,050",
-        amountInRange: 61149,
+        amountInRange: 61150,
       },
       {
         rate: 22,
         range: "$81,051 - $172,750",
-        amountInRange: 91699,
+        amountInRange: 91700,
       },
       {
         rate: 24,
         range: "$172,751 - $329,850",
-        amountInRange: 78549,
+        amountInRange: 78550,
       },
       {
         rate: 32,
         range: "$329,851 to $418,850",
-        amountInRange: 88999,
+        amountInRange: 89000,
       },
       {
         rate: 35,
         range: "$418,851 to $628,300",
-        amountInRange: 209499,
+        amountInRange: 209500,
       },
       {
         rate: 37,
@@ -109,27 +109,27 @@ export const taxBrackets = [
       {
         rate: 12,
         range: "$9,951 - $40,525",
-        amountInRange: 30574,
+        amountInRange: 30575,
       },
       {
         rate: 22,
         range: "$40,526 - $86,375",
-        amountInRange: 45849,
+        amountInRange: 45850,
       },
       {
         rate: 24,
         range: "$86,376 - $164,925",
-        amountInRange: 78549,
+        amountInRange: 78550,
       },
       {
         rate: 32,
         range: "$164,926 - $209,425",
-        amountInRange: 44499,
+        amountInRange: 44500,
       },
       {
         rate: 35,
         range: "$209,426 - $314,150",
-        amountInRange: 104724,
+        amountInRange: 104725,
       },
       {
         rate: 37,
@@ -150,27 +150,27 @@ export const taxBrackets = [
       {
         rate: 12,
         range: "$14,201 to $54,200",
-        amountInRange: 39999,
+        amountInRange: 40000,
       },
       {
         rate: 22,
         range: "$54,201 to $86,350",
-        amountInRange: 32149,
+        amountInRange: 32150,
       },
       {
         rate: 24,
         range: "$86,351 to $164,900",
-        amountInRange: 78549,
+        amountInRange: 78550,
       },
       {
         rate: 32,
         range: "$164,901 to $209,400",
-        amountInRange: 44499,
+        amountInRange: 44500,
       },
       {
         rate: 35,
         range: "$209,401 to $523,600",
-        amountInRange: 314199,
+        amountInRange: 314200,
       },
       {
         rate: 37,
