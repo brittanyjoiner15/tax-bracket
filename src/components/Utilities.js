@@ -78,7 +78,7 @@ export const taxBrackets = [
       {
         rate: 24,
         range: "$172,751 - $329,850",
-        amountInRange: 78550,
+        amountInRange: 157100,
       },
       {
         rate: 32,
