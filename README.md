@@ -4,11 +4,13 @@ Ever wondered how much of your income goes into each tax bracket? I did! So I cr
 
 [See it live here!](https://marginal-tax-bracket-breakout.netlify.app/)
 
+[Read this blog post walking through how (and why) I built it!](https://brittjoiner.hashnode.dev/i-built-a-marginal-tax-bracket-breakout-calculator-ckzx632d000ym14nvdsxjhxe1)
+
 ### Want to run this locally?
 
 1. Clone this repo to your local repos
-2. Run `yarn install` or `npm install`
-3. Once that's complete, run `yarn start` or `npm run dev`
+2. Run `yarn install`
+3. Once that's complete, run `yarn start`
 4. You should see this running on your localhost at port 3000!
 
 #### **Created by**
